@@ -39,6 +39,9 @@ python -m venv .venv
 source .venv/bin/activate  # Unix/macOS
 # 或
 .venv\Scripts\activate  # Windows
+# 使用 conda
+conda create --name gemini-teacher python=3.11 -y
+conda activate gemini-teacher
 ```
 
 3. 安装依赖：
